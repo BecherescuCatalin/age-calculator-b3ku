@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url(https://fonts.google.com/specimen/Poppins);
+  weight: 400i, 700, 800i;
+}
+
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  background-color: rgb(240, 233, 233);
+  margin-top: 5rem;
+  border-radius: 20px 20px 120px 20px;
+}
+
+.container {
+  display: flex;
+  border-bottom: 2px solid rgb(184, 180, 180);
+  padding: 5px;
+  margin-top: 3em;
+  margin-left: 5px;
+}
+
+.inputc {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+
+span {
+  color: gray;
+  font-size: xx-small;
+  text-transform: uppercase;
+  margin-bottom: -5px;
+}
+
+input {
+  width: 80px;
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: x-large;
+  padding: 5px;
+  padding-left: 10px;
+  border: 1px solid;
+  border-color: rgb(216, 195, 195);
+}
+
+small {
+  text-transform: capitalize;
+  font-size: xx-small;
+  color: rgb(255, 5, 5);
+  margin: 0;
+}
+
+.textactive {
+  color: rgb(245, 6, 6);
+}
+.borderactive {
+  border: 1px solid rgb(245, 6, 6);
+}
+
+.hide {
+  display: none;
+}
+
+.btn {
+  height: 70px;
+  width: 70px;
+  margin-top: 8em;
+  border-radius: 50%;
+  background-color: rgb(128, 128, 202);
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(73, 73, 155);
+}
+
+.showAge {
+  margin: 20px;
+  width: 300px;
+}
+
+.years,
+.months,
+.days {
+  color: rgb(37, 78, 202);
+  font-size: xxx-large;
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: xxx-large;
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: rgb(240, 233, 233);
+    margin-top: 5rem;
+  }
+  .btn {
+    margin-top: -25px;
+    margin-left: 10rem;
+  }
+}
